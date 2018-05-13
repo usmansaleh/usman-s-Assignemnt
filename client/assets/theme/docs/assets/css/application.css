@@ -1,0 +1,110 @@
+/*
+ * Application level styles
+ * (things that dont make sense in a toolkit :)
+ * copyright @colossal 2015
+ */
+
+ /* docs overrides */
+ .highlight {
+  background-color: #fff;
+  border-color: #d3e0e9;
+}
+
+
+/* general overrides */
+.list-group-item .glyphicon {
+  line-height: 1.4;
+}
+.modal-header .close {
+  margin-top: 4px;
+}
+strong {
+  font-weight: bold;
+}
+
+
+/* navbar */
+.app-navbar {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+.app-navbar .form-control {
+  box-shadow: none;
+}
+.app-navbar .navbar-brand img {
+  width: 60px !important;
+  margin-top: -5px;
+  margin-left: -10px;
+}
+.app-navbar .navbar-collapse {
+  max-height: inherit;
+}
+.app-navbar .navbar-collapse:after {
+  height: 100vh;
+}
+.app-navbar .form-control {
+  border-color: #1C73A5;
+}
+.app-navbar .app-notifications {
+  margin-left: 1rem;
+  padding-bottom: 4px !important;
+  padding-top: 4px !important;
+}
+.app-notifications .icon:before {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .app-navbar .navbar-collapse:after {
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .app-search {
+    margin-top: -1px;
+  }
+}
+
+
+/* misc */
+.app-login-form {
+  max-width: 280px;
+  margin-top: -60px;
+}
+.app-new-msg {
+  margin-right: 10px;
+}
+.app-brand {
+  width: 40%;
+  display: inline-block;
+}
+.app-brand img {
+  width: 100%;
+}
+
+.navbarColor{
+  background-color: #2c3e50 !important;
+}
+.navbarBorder{
+  border-radius:0px !important;
+}
+.fontfamily{
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-login-form{
+  max-width: 480px;
+  width: 200px;
+  margin-top: -60px;
+}
+
+/*form.mx-auto.text-center.app-login-form.ng-valid-email.ng-dirty.ng-valid-parse.ng-valid.ng-valid-required img {
+  margin-left: -285px;
+}
+
+.forgetMargin{
+  margin-left: -286px;
+}
+.btnMargin{
+  margin-left: -282px;
+}*/

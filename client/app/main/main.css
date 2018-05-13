@@ -1,0 +1,202 @@
+.img{
+  width: 45% !important;
+  height: auto;
+}
+
+.img_logo{
+  width: 10% !important;
+  height: 50%;
+}
+.imgNurture{
+  width: 40% !important;
+  height: 125px;
+  padding: 5% 5% 5% 5%;
+}
+.chart {
+  background: none;
+}
+
+.chart div {
+  width: 0;
+  transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 5px;
+  color: white;
+  box-shadow: 2px 2px 2px #666;
+}
+
+.textcolor{
+  color: #4F4F4F;
+}
+
+.textBlack{
+  color: #000000;
+}
+
+.textYellow{
+  color: #FFD700;
+}
+
+.display{
+  display: inline;
+}
+
+.logoMargin{
+  margin-top: -60px;
+}
+
+#chartdiv {
+  width       : 100%;
+  height      : 500px;
+  font-size   : 11px;
+}  
+
+.textResult{
+  font-size: 15px;
+}
+
+.textAD{
+  text-align: left !important;
+}
+
+.backgroundColor{
+  background-color: #f5f8fa;
+}
+
+.spinner {
+  margin: 100px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+.roboBold{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.fontfamily{
+  font-family: 'Roboto', sans-serif !important;;
+}
+
+.roboRegular{
+  font-weight: 300;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }
+
+
+  .ladda-spinner {
+    margin-top: -15px;
+    position: absolute;
+    left: 16px;
+    top: 30px;
+  }
+
+  .headingAlign{
+    text-align: left !important;
+  }
+
+  .CogBar h3{
+    background-color: #FFD200;
+    height: 70px;
+    margin-left: -76px;
+    margin-top: -17px;
+    padding-top: 22px;
+    margin-bottom: 13px;
+    padding-left: 5px;
+  }
+
+  .graphHeight{
+    height: 585px !important;
+    padding-top: 10px;
+  }
+
+  .esiBar h3{
+    background-color: #00A3FF;
+    margin-left: -76px;
+    margin-bottom: 13px;
+    margin-top: 0px;
+    padding-top: 22px;
+    height: 70px;
+    padding-left: 5px;
+  }
+
+  .AQBar h3{
+    background-color: #FF0000;
+    margin-left: -76px;
+    margin-top: 25px;
+    padding-top: 25px;
+    margin-bottom: 13px;
+    height: 75px;
+    padding-left: 5px;
+  }
+
+  .NATBar h3{
+    background-color: #00BA10;
+    margin-left: -76px;
+    margin-top: 23px;
+    margin-bottom: 13px;
+    padding-top: 27px;
+    height: 78px;
+    padding-left: 5px;
+  }
+  .boxColor{
+    background-color: #f5f8fa;
+  }
+  .headingColor{
+    color: #ffffff;
+  }
+
+  .btnColor{
+    background-color: #2c3e50 !important;
+  }
+
+  .esiSvg{
+    width: 100% !important;
+  }
+
+  .blockPadding{
+    padding-top: 24px !important;
+  }
