@@ -33,9 +33,10 @@ function getDataForReference(reference) {
   });
 }
 
-function writeDataInFirebaseDB(reference, data) {
+function writeDataInFirebaseDB(data) {
+  console.log(data)
   return new Promise(function(resolve, reject) {
-    firebase.database().ref(reference).push(data, function(error) {
+    firebase.database().ref('users').push(data, function(error) {
       if (error) {
         reject(error);
       } else {

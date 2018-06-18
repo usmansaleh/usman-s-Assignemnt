@@ -42,6 +42,23 @@ export class MainController {
 
   }
 
+  Add(data)
+  {
+    var vm = this;
+    console.log(data);
+    vm.firebaseDB.writeDataInFirebaseDB(data).then(function(data) {
+      // console.log('what is in data');
+      // vm.users = data;
+      // vm.scope.$apply(function() {
+      //   vm.allLoaded = true;
+      // });
+    })
+      .catch(function(error) {
+        console.log("caling firebase DB", error);
+    });
+
+  }
+
   update(data) {
     var vm = this;
     console.log(data);

@@ -11,6 +11,22 @@
 <div class="container" ng-show="vm.allLoaded">
   <div class="row">
     <div class="col">
+      <label>Name</label>
+      <input type="" name="" ng-model="vm.user.displayName">
+    </div>
+    <div class="col">
+      <label>Email</label>
+      <input type="" name="" ng-model="vm.user.email">
+    </div>
+    <div class="col">
+      <label>Age</label>
+      <input type="" name="" ng-model="vm.user.age">
+    </div>
+    <button ng-click="vm.Add(vm.user)">Add</button>
+  </div>
+  <div class="row">
+
+    <div class="col">
       <table class="table" style="max-width: 100% !important;">
         <tr>
           <th>Name</th>
